@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e91e63;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.panda {
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ear {
+  width: 60px;
+  height: 60px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.ear.left {
+  left: -80px;
+}
+
+.ear.right {
+  right: -80px;
+}
+
+.face {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+}
+
+.eye {
+  width: 50px;
+  height: 70px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+}
+
+.eye.left {
+  left: 30px;
+}
+
+.eye.right {
+  right: 30px;
+}
+
+.eyeball {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  margin: 25px auto 0;
+}
+
+.nose {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.login-box {
+  background: white;
+  border-radius: 10px;
+  padding: 40px 30px;
+  width: 300px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  margin-top: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.login-box h2 {
+  color: #e91e63;
+  margin-bottom: 20px;
+  font-family: 'Courier New', cursive;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-box button:hover {
+  background: #c2185b;
+}

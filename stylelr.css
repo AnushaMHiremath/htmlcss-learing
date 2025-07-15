@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times new Roman';
+
+}
+body {
+  background-color: #1a2125;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  background-color: #f4eeee;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(117, 15, 15, 0.1);
+}
+
+.form-box {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ab0f94, #8a2be2);
+  box-shadow: 0 5px 15px rgba(18, 7, 7, 0.2);
+}
+
+.form-box h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.form-box span {
+  font-weight: bold;
+  color: #000;
+}
+
+.form-box form input {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+.form-box form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.form-box form button:hover {
+  background-color: #333;
+}
+
+.extras {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #000;
+}
+
+.extras a {
+  text-decoration: none;
+  color: #000;
+}
+
+.extras a:hover {
+  text-decoration: underline;
+}
